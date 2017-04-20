@@ -19,31 +19,23 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
+	
 </head>
 <body>
 
-		<nav class="navbar navbar-default" id="topnav">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" id="LeeAnnaMisterek" href="index.html">LeeAnna Misterek</a>
-			   	</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+		      	<h2><a class="navbar-brand col-xs-12" href="index.html">LeeAnna Misterek</a></h2>
+		    	</div>
 
-			    
-			      <ul class="nav navbar-nav navbar-right" id="topnavmenu">
-			        <li><a href="index.html">About</a></li>
-			        <li><a href="portfolio.html">Portfolio</a></li>
-			        <li><a href="contact.html">Contact</a></li>
-			        
-			      </ul>
-		   </div><!-- /.navbar-collapse -->
-	</nav>
+		<!-- nav-fill is not workin -->
+		    	<ul class="nav navbar-nav navbar-right nav-pills nav-fill mx-auto">
+		  			<li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+		  			<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+		  			<li class="active nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+		</nav>
 
 	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
 	<div class="container">	
@@ -73,31 +65,28 @@
 	    			</div>
 	  			</form>
 			</div>
-			<div class="col-xs-6 col-md-4" id="sidebar">
-					
-					<h4 id="connect"> Connect with Me </h4>
-
+			<aside class="container col-xs-12 col-md-4">
+				<h2> Connect with Me </h2>
+				<div class="container-fluid">
 					<div id="socialLinks">
-						<a href="https://github.com/lmisterek" target="_blank"> <img alt="Github Icon" id="gitHub" src="assets/images/GitHub-Mark-120px-plus.png"></a>
-						<a href="https://www.linkedin.com/in/leeanna-misterek-6a51a093/" target="_blank"><img alt="Linked in Icon" id="linkedIn" src="assets/images/Linked_in.png"></a>
-						<a href="http://stackoverflow.com/users/7803081/leeanna-misterek" target="_blank"><img alt="Stack Over flow Icon" id="stackOverflow" src="assets/images/so-icon.png"></a>
-					</div>
-			</div>
-		</div>
-
-		
-	</div>
-
-	<div class="row">
-			<div class="col-xs-18 col-md-12" id="footer">
-				<div class="footer-copyright">
-		        	<div class="container-fluid" id="copyright">
-		        		@ Copyright 2017 LeeAnna Misterek
-
-		        	</div>
+					<a href="https://github.com/lmisterek" target="_blank"> <img alt="Github Icon"  width="50" src="assets/images/GitHub-Mark-120px-plus.png"></a>
+					<a href="https://www.linkedin.com/in/leeanna-misterek-6a51a093/" target="_blank"><img alt="Linked in Icon" width="50" src="assets/images/Linked_in.png"></a>
+					<a href="http://stackoverflow.com/users/7803081/leeanna-misterek" target="_blank"><img alt="Stack Over flow Icon" width="50" src="assets/images/so-icon.png"></a>
 				</div>
-			</div>
-		</div>
+			</aside>
+	</div>
+	</div>
+	
+	<div class="row">
+			<div class="col-xs-4">
+		  	</div>
+			<footer class="footer">
+				<p id=" col-xs-4 copyright"> @ Copyright 2017 LeeAnna Misterek</p>
+			</footer>
+			<div class="col-xs-4">
+		  	</div>
+	  	</div>
 
 </body>
+
 </html>
